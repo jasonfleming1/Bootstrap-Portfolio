@@ -181,3 +181,8 @@ button:focus {
    border: none;
    box-shadow: #343a40;
 }
+
+#link {
+   color: #000000;
+   font-weight: bold;
+}
