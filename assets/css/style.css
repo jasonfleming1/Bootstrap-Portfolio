@@ -12,9 +12,9 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
-    font-size: 18px;
+    font-size: 18px;    
     line-height: 36px;
     color: #999999;
     background: #fafafa;
@@ -22,45 +22,61 @@ body {
   }
 
   /* global styling */
-
-
          /* nav */
-
-         .nav-link {
-            color: #ffffff;
-         }
-
-         .nav-link:hover {
-            background: #ffff00;
-            color: #000000;
-            font-weight: bold;
-         }
 
          .navbar-brand {
             text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+            font-weight: medium;
+         }
+
+         .nav-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+            font-weight: medium;
+         }
+
+         .nav-link:hover {
+            transition-duration: .2s, 1s;
+            transition-timing-function: linear, ease-in;
+            background: #ffff00;
+            color: #000000;
+            font-weight: 300;
+         }
+
+         .navbar-brand:hover {
+            background: #000000;
+            transition-duration: .2s, 1s;
+            transition-timing-function: linear, ease-in;
+            font-weight: 300;
          }
 
          /* headings */
 
          h1 {
-            padding-top: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            font-size: 35px;
+            font-weight: medium;
             color: #343a40;
          }
 
          h2 {
             padding-top: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #343a40;
          }
 
          h5 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
             font-weight: bold;
+            color: 
          }
 
          .jumbotron {
             margin-top: 30px;
+            bak
          }
 
          .row {
@@ -70,14 +86,26 @@ body {
 
 /* portfolio page styling */
 
-.card {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   margin-bottom: 40px;
-}
+   .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 40px;
+   }
+
+   .card-img-top {
+      width: 100%;
+      object-fit: cover;
+  }
+
+
+   #link:hover {
+      color: blue;
+   }
 
 /* button */
 
    #button:hover {
+      transition-duration: .2s, 1s;
+      transition-timing-function: linear, ease-in;
       background: #ffff00;
       color: #000000;
       font-weight: bold;
@@ -167,6 +195,8 @@ button {
 }
 
 button:hover {
+   transition-duration: .2s, 1s;
+   transition-timing-function: linear, ease-in;
    background: #ffff00;
    color: #000000;
    font-weight: bold;
