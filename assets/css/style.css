@@ -71,12 +71,10 @@ body {
 
          h5 {
             font-weight: bold;
-            color: 
          }
 
          .jumbotron {
             margin-top: 30px;
-            bak
          }
 
          .row {
@@ -125,6 +123,7 @@ body {
 
 /* image on the bio page */
 
+
 img  {
    width: 200px;
    height: 200px;
@@ -148,6 +147,15 @@ img  {
    margin: 0 auto;
    max-width: 1110px;
 }
+
+/*icons*/
+
+   #social {
+      color: #000000;
+      align: center;
+      padding-right: 15px;
+
+   }
 
 /* form styling */
 
