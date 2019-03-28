@@ -74,7 +74,8 @@ body {
          }
 
          .jumbotron {
-            margin-top: 30px;
+            margin-top: 10px;
+            background-color:transparent;
          }
 
          .row {
@@ -93,7 +94,6 @@ body {
       width: 100%;
       object-fit: cover;
   }
-
 
    #link:hover {
       color: blue;
@@ -154,7 +154,17 @@ img  {
       color: #000000;
       align: center;
       padding-right: 15px;
+   }
 
+   #social:hover {
+      transition-duration: .2s, 1s;
+      background: #ffff00;
+      color: #000000;
+      font-weight: bold;
+      border: none;
+      box-shadow: #343a40;
+      padding: 10px;
+   }
    }
 
 /* form styling */
